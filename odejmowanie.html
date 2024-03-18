@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extra Majca</title>
+    <link rel="stylesheet" href="styl.css">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+<body onload="liczenie()">
+    <div id="header"><h1>Extra Majca</h1></div>
+    <div id="nav">
+        <a href="index.html">Strona główna</a>&ThinSpace;|&ThinSpace;
+        <a href="dodawanie.html">Dodawanie</a>&ThinSpace;|&ThinSpace;
+        <a href="odejmowanie.html">Odejmowanie</a>&ThinSpace;|&ThinSpace;
+        <a href="mnozenie.html">Mnożenie</a>&ThinSpace;|&ThinSpace;
+        <a href="dzielenie.html">Dzielenie</a>&ThinSpace;|&ThinSpace;
+        <a href="kostki.html">Licz Oczka</a>
+    </div>
+    <div id="blok1">
+        <p>Strona ta została wykonana, aby uczyć dzieci podstawowych zasad matematyki, oraz aby po wyjściu z tej strony potrafiły liczyć 😁</p>
+        <div id="timer" class="zegar">
+            <h3>ZEGAR</h3>
+        </div>
+    </div>
+    <div id="blok2">
+        <center>
+            <div id="w1"></div>
+            <div class="znak">-</div>
+            <div id="w2"></div>
+            <div class="znak">=</div>
+            <div class="znak"><input type="number" id="odp"></div>
+            <div id="wynik"></div> </center>
+            <div  style="float: inline-end; margin-top:429px;">
+                <input type="button" value="Losuj" onclick="losuj2()">
+                <input type="button" value="Sprawdź" onclick="odejmowanie()"><br>
+            </div>
+    </div>
+    <div id="footer">
+        <p>Numer z dziennika: <i><b>26</b></i></p>
+    </div>
+</body>
+<script src="js.js"></script>
+</html>
